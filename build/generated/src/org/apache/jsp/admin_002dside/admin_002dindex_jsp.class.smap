@@ -1,0 +1,18 @@
+SMAP
+admin_002dindex_jsp.java
+JSP
+*S JSP
+*F
++ 0 admin-index.jsp
+admin-side/admin-index.jsp
++ 1 admin-header.jsp
+admin-side/admin-header.jsp
++ 2 admin-footer.jsp
+admin-side/admin-footer.jsp
+*L
+5,5:50
+5#1,76:54
+9#0,8:129
+5#2,24:137
+16#0:160
+*E

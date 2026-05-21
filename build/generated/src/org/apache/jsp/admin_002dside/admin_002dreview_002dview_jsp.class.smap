@@ -1,0 +1,25 @@
+SMAP
+admin_002dreview_002dview_jsp.java
+JSP
+*S JSP
+*F
++ 0 admin-review-view.jsp
+admin-side/admin-review-view.jsp
++ 1 admin-header.jsp
+admin-side/admin-header.jsp
++ 2 admin-footer.jsp
+admin-side/admin-footer.jsp
+*L
+5,7:52
+5#1,76:58
+11#0,6:133
+16,36:139
+52,4:176
+55,2:180
+57,3:182,3
+60,3:191
+62,2:194
+63,18:196
+5#2,24:213
+80#0:236
+*E

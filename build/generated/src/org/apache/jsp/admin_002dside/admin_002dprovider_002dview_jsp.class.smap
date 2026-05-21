@@ -1,0 +1,25 @@
+SMAP
+admin_002dprovider_002dview_jsp.java
+JSP
+*S JSP
+*F
++ 0 admin-provider-view.jsp
+admin-side/admin-provider-view.jsp
++ 1 admin-header.jsp
+admin-side/admin-header.jsp
++ 2 admin-footer.jsp
+admin-side/admin-footer.jsp
+*L
+5,6:52
+5#1,76:57
+10#0,6:132
+15,37:138
+52,6:176
+57,2:182
+59,8:184,3
+67,2:208
+69:210,3
+70,16:213
+5#2,24:228
+85#0:251
+*E

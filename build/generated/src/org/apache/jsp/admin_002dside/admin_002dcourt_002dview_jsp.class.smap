@@ -1,0 +1,27 @@
+SMAP
+admin_002dcourt_002dview_jsp.java
+JSP
+*S JSP
+*F
++ 0 admin-court-view.jsp
+admin-side/admin-court-view.jsp
++ 1 admin-header.jsp
+admin-side/admin-header.jsp
++ 2 admin-footer.jsp
+admin-side/admin-footer.jsp
+*L
+5,6:52
+5#1,76:57
+10#0,6:132
+15,37:138
+52,12:176
+63,3:188
+66,8:191,3
+74,2:215
+76:217,3
+77,2:220
+78,2:222
+79,19:224
+5#2,24:242
+97#0:265
+*E

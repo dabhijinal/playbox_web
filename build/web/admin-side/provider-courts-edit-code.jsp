@@ -1,0 +1,48 @@
+<%@page import="connection.DBConnection"%>
+<%@ page contentType="text/html" pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <%
+            try {
+                DBConnection db = new DBConnection();
+
+                String pid = "0";  // session here 
+
+                if (session.getAttribute("provider") != null) {
+                    pid = session.getAttribute("provider").toString();
+                }
+
+                String cid = request.getParameter("cid");
+                int spid = Integer.parseInt(request.getParameter("spid"));
+                String cname = request.getParameter("cname");
+                String area = request.getParameter("area");
+                String rating = request.getParameter("rating");
+                int rent = Integer.parseInt(request.getParameter("rent"));
+                String time = request.getParameter("time");
+                String img1 = request.getParameter("img1");
+                String img2 = request.getParameter("img2");
+
+              
+                String q = "update courts set pid="  + pid +",spid=" + spid +",cname='"  + cname + "', area='" + area + "',rating="  + rating + ","
+                        + "rent="  + rent + ",time='"  + time + "',img1='"  + img1 + "',img2='"  + img2 + "' where cid=" + cid;
+                out.println(q);
+                int result = db.allquery(q);
+
+                if (result > 0) {
+                    response.sendRedirect("provider-courts-view.jsp");
+                    //out.println("Record inserted successfully.");
+                } else {
+                    out.println("Error");
+                }
+            } catch (Exception e) {
+                out.println("Error: " + e);
+            }
+        %>
+    </body>
+</html>
